@@ -3,6 +3,7 @@
   "title": "Dungeon Crawl Classics Core Book Compendium",
   "description": "Compendium for the Dungeon Crawl Classics Core Rulebook",
   "author": "DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
   "contributors": [
     {
       "name": "Steve Barnett"
@@ -26,9 +27,6 @@
   "esmodules": [
     "module/dccCoreBook.js"
   ],
-  "styles": [
-    "styles/dcc-core-book.css"
-  ],
   "languages": [
     {
       "lang": "en",
@@ -36,6 +34,11 @@
       "path": "lang/en.json"
     }
   ],
+  "styles": [
+    "styles/dcc-core-book.css"
+  ],
+  "protected": true,
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
   "packs": [
     {
       "name": "dcc-core-creatures",
@@ -282,6 +285,5 @@
       "system": "dcc",
       "entity": "Item"
     }
-  ],
-  "protected": true
+  ]
 }
