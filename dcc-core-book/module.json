@@ -38,7 +38,7 @@
     "styles/dcc-core-book.css"
   ],
   "protected": true,
-  "manifest": "https://github.com/foundryvtt-dcc/dcc-content/blob/main/dcc-core-book/module.json",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-core-book/module.json",
   "url": "https://github.com/foundryvtt-dcc/dcc-content",
   "packs": [
     {
