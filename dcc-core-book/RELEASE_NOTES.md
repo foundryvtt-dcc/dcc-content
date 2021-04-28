@@ -1,6 +1,6 @@
 # Dungeon Crawl Classics for Foundry VTT Release Notes
 
-Version 0.90.1
+Version 0.90.2
 --------------
 * Making all rolls clickable in Journals
 * Fixed 1d30 in Introduction Journal
