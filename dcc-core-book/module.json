@@ -21,7 +21,7 @@
       "type": "system"
     }
   ],
-  "version": "0.90.2",
+  "version": "0.90.3",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "esmodules": [
@@ -38,7 +38,7 @@
     "styles/dcc-core-book.css"
   ],
   "protected": true,
-  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-core-book/module.json",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-core-book/v0.90.3/module.json",
   "url": "https://github.com/foundryvtt-dcc/dcc-content",
   "packs": [
     {
