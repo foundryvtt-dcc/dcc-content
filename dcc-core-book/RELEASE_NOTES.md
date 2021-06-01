@@ -2,11 +2,11 @@
 
 Version 0.90.3
 --------------
-Fix pack preload. (Steve Barnett)
-Fix flaming hands misfire1. (Steve Barnett)
-Fix spell description (in item, journal, and table) for Runic Alphabet, Mortal. Closes #112. (Steve Barnett)
-Fix index links (Christian Ovsenik)
-fix mummy club (Christian Ovsenik)
+* Fix pack preload. (Steve Barnett)
+* Fix flaming hands misfire1. (Steve Barnett)
+* Fix spell description (in item, journal, and table) for Runic Alphabet, Mortal. Closes #112. (Steve Barnett)
+* Fix index links (Christian Ovsenik)
+* Fix mummy club (Christian Ovsenik)
 
 Version 0.90.2
 --------------
