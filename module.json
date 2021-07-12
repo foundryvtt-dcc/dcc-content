@@ -1,0 +1,290 @@
+{
+  "name": "dcc-core-book",
+  "title": "Dungeon Crawl Classics Core Book Compendium",
+  "description": "Compendium for the Dungeon Crawl Classics Core Rulebook",
+  "author": "DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "dcc",
+      "type": "system"
+    }
+  ],
+  "version": "0.90.4",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion":"0.7.9",
+  "esmodules": [
+    "module/dccCoreBook.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "styles": [
+    "styles/dcc-core-book.css"
+  ],
+  "protected": true,
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-core-book/v0.90.4/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "packs": [
+    {
+      "name": "dcc-core-creatures",
+      "label": "Cyclopedia of Creatures Monstrous and Mundane",
+      "path": "packs/dcc-core-creatures.db",
+      "system": "dcc",
+      "entity": "Actor"
+    },
+    {
+      "name": "dcc-core-men-and-magicians",
+      "label": "Men and Magicians",
+      "path": "packs/dcc-core-men-and-magicians.db",
+      "system": "dcc",
+      "entity": "Actor"
+    },
+    {
+      "name": "dcc-core-ammunition",
+      "label": "Ammunition",
+      "path": "packs/dcc-core-ammunition.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-armor",
+      "label": "Armor",
+      "path": "packs/dcc-core-armor.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-equipment",
+      "label": "Equipment",
+      "path": "packs/dcc-core-equipment.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-weapons",
+      "label": "Weapons",
+      "path": "packs/dcc-core-weapons.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-mounts",
+      "label": "Mounts",
+      "path": "packs/dcc-core-mounts.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-wizard-1",
+      "label": "Wizard Spells Level 1",
+      "path": "packs/dcc-core-spells-wizard-1.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-wizard-2",
+      "label": "Wizard Spells Level 2",
+      "path": "packs/dcc-core-spells-wizard-2.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-wizard-3",
+      "label": "Wizard Spells Level 3",
+      "path": "packs/dcc-core-spells-wizard-3.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-wizard-4",
+      "label": "Wizard Spells Level 4",
+      "path": "packs/dcc-core-spells-wizard-4.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-wizard-5",
+      "label": "Wizard Spells Level 5",
+      "path": "packs/dcc-core-spells-wizard-5.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-cleric-1",
+      "label": "Cleric Spells Level 1",
+      "path": "packs/dcc-core-spells-cleric-1.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-cleric-2",
+      "label": "Cleric Spells Level 2",
+      "path": "packs/dcc-core-spells-cleric-2.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-cleric-3",
+      "label": "Cleric Spells Level 3",
+      "path": "packs/dcc-core-spells-cleric-3.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-cleric-4",
+      "label": "Cleric Spells Level 4",
+      "path": "packs/dcc-core-spells-cleric-4.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-cleric-5",
+      "label": "Cleric Spells Level 5",
+      "path": "packs/dcc-core-spells-cleric-5.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spells-patron",
+      "label": "Patron Spells",
+      "path": "packs/dcc-core-spells-patron.db",
+      "system": "dcc",
+      "entity": "Item"
+    },
+    {
+      "name": "dcc-core-spell-tables-wizard",
+      "label": "Wizard Spell Tables",
+      "path": "packs/dcc-core-spell-tables-wizard.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-spell-tables-cleric",
+      "label": "Cleric Spell Tables",
+      "path": "packs/dcc-core-spell-tables-cleric.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-spell-tables-patron",
+      "label": "Patron Spell Tables",
+      "path": "packs/dcc-core-spell-tables-patron.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-spell-effect-tables",
+      "label": "Spell Side Effect Tables",
+      "path": "packs/dcc-core-spell-side-effect-tables.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-spellburn-actions",
+      "label": "Spellburn Actions",
+      "path": "packs/dcc-core-spellburn-actions.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-disapproval",
+      "label": "Disapproval",
+      "path": "packs/dcc-core-disapproval.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-crits-and-fumbles",
+      "label": "Crits and Fumbles",
+      "path": "packs/dcc-core-crits-and-fumbles.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-tables",
+      "label": "Core Book Tables",
+      "path": "packs/dcc-core-tables.db",
+      "system": "dcc",
+      "entity": "RollTable"
+    },
+    {
+      "name": "dcc-core-journals",
+      "label": "Core Book Journals",
+      "path": "packs/dcc-core-journals.db",
+      "system": "dcc",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dcc-core-text",
+      "label": "Core Book Text",
+      "path": "packs/dcc-core-text.db",
+      "system": "dcc",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dcc-core-creatures-journals",
+      "label": "Cyclopedia of Creatures Monstrous and Mundane (Journals)",
+      "path": "packs/dcc-core-creatures-journals.db",
+      "system": "dcc",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dcc-core-men-and-magicians-journals",
+      "label": "Men and Magicians (Journals)",
+      "path": "packs/dcc-core-men-and-magicians-journals.db",
+      "system": "dcc",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dcc-core-spell-journals",
+      "label": "Spell Tables",
+      "path": "packs/dcc-core-spell-journals.db",
+      "system": "dcc",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dcc-core-index",
+      "label": "DCC Compendium Index",
+      "path": "packs/dcc-core-index.db",
+      "system": "dcc",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dcc-core-pregens-level-zero",
+      "label": "Pre-gens: Level Zero",
+      "path": "packs/dcc-core-pregens-level-zero.db",
+      "system": "dcc",
+      "entity": "Actor"
+    },
+    {
+      "name": "dcc-core-pregens-upper-level",
+      "label": "Pre-gens: Upper Level",
+      "path": "packs/dcc-core-regens-upper-level.db",
+      "system": "dcc",
+      "entity": "Actor"
+    },
+    {
+      "name": "dcc-core-occupation-items",
+      "label": "Occupation Items",
+      "path": "packs/dcc-core-occupation-items.db",
+      "system": "dcc",
+      "entity": "Item"
+    }
+  ]
+}
