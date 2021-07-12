@@ -1,5 +1,16 @@
 # Dungeon Crawl Classics for Foundry VTT Release Notes
 
+
+Version 0.90.4/5
+----------------
+* Mark spells up with the correct casting mode (for DCC v0.29.0's spell failure automation)
+* Fix missing fields and casting time on the Blessing placeholder spell
+* Add and register RollTables for the Cleric's Turn Unholy, Divine Aid, and Lay on Hands abilities (for DCC v0.29.0)
+* Handle out of range disapproval results cleanly
+* Fix Azi Dahaka table and Elf Class table in core journals (Christian Ovsenik)
+* Fix Wizard saves in Table 1-12 journal entry (Christian Ovsenik)
+* Add monster art to every actor. (Christian Ovsenik)
+
 Version 0.90.3
 --------------
 * Fix pack preload. (Steve Barnett)
