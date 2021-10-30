@@ -1,5 +1,17 @@
 # Dungeon Crawl Classics for Foundry VTT Release Notes
 
+Version 1.0.1
+-------------
+* Fix the price of Full Plate armor (1gp -> 1200gp) and the check penalties on Unarmoured and Padded (NaN -> +0). (Steve Barnett)
+* Disable vision on all NPC actors. Closes #117. (Steve Barnett)
+* Update starting gold values and roll markup. Pack compaction. Closes #120. (Steve Barnett)
+* Fix the cost of Feed from 5gp to 5cp (Christian Ovsenik)
+
+Version 1.0
+----------------
+* Adds the DCC Core Book Changelog journal to hold the release notes.
+* Adds a link to the Release Notes from the Welcome Dialog.
+* Tweaks the Welcome Dialog to always show when a new version of the Core Book module is detected
 
 Version 0.90.4/5
 ----------------
