@@ -29,13 +29,13 @@
     }
   ],
   "protected": true,
-  "version": "v0.1.0",
+  "version": "0.1.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
   "esmodules": [
     "module/dccModule.js"
   ],
-  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-sailors-on-the-starless-sea/vv0.1.0/module.json",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-sailors-on-the-starless-sea/v0.1.0/module.json",
   "url": "https://github.com/foundryvtt-dcc/dcc-content",
   "packs": [
     {
