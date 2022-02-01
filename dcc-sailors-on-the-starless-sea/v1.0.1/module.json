@@ -1,0 +1,120 @@
+{
+  "name": "dcc-sailors-on-the-starless-sea",
+  "author": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+  "title": "DCC 67: Sailors on the Starless Sea",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "description": "A Level 0 Adventure\n\nFind out why this is among the most-celebrated adventures for DCC RPG!\n\nSince time immemorial you and your people have toiled in the shadow of the cyclopean ruins. Of mysterious origins and the source of many a superstition, they have always been considered a secret best left unknown by the folk of your hamlet.\n\nBut now something stirs beneath the crumbling blocks. Beastmen howl in the night and your fellow villagers are snatched from their beds. With no heroes to defend you, who will rise to stand against the encircling darkness? The secrets of Chaos are yours to unearth, but at what cost to sanity or soul?\n\nAn introductory adventure for the Dungeon Crawl Classics Roleplaying Game, Sailors on the Starless Sea pits a mob of 0-level adventurers against the legacy of the Chaos Lords and their corrupted hordes. Delving beneath the crumbling ruins, the characters discover ancient crypts, a starless sea, and an ancient ziggurat, where death and treasure await in equal measure!",
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "dcc",
+      "type": "system"
+    }
+  ],
+  "protected": true,
+  "version": "1.0.1",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-sailors-on-the-starless-sea/v1.0.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "packs": [
+    {
+      "name": "dcc-sailors-monsters",
+      "label": "Sailors on the Starless Sea Monsters",
+      "path": "packs/dcc-sailors-on-the-starless-sea-monsters.db",
+      "entity": "Actor",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-magic-items",
+      "label": "Sailors on the Starless Sea Magic Items",
+      "path": "packs/dcc-sailors-on-the-starless-sea-magic-items.db",
+      "entity": "Item",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-scenes",
+      "label": "Sailors on the Starless Sea Scenes",
+      "path": "packs/dcc-sailors-on-the-starless-sea-scenes.db",
+      "entity": "Scene",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-scenes-gridless",
+      "label": "Sailors on the Starless Sea Scenes (gridless)",
+      "path": "packs/dcc-sailors-on-the-starless-sea-scenes-gridless.db",
+      "entity": "Scene",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-handouts",
+      "label": "Sailors on the Starless Sea Handouts",
+      "path": "packs/dcc-sailors-on-the-starless-sea-handouts.db",
+      "entity": "JournalEntry",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-text",
+      "label": "Sailors on the Starless Sea Text",
+      "path": "packs/dcc-sailors-on-the-starless-sea-text.db",
+      "entity": "JournalEntry",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-tables",
+      "label": "Sailors on the Starless Sea Tables",
+      "path": "packs/dcc-sailors-on-the-starless-sea-tables.db",
+      "entity": "RollTable",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-macros",
+      "label": "Sailors on the Starless Sea Macros",
+      "path": "packs/dcc-sailors-on-the-starless-sea-macros.db",
+      "entity": "Macro",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-sailors-0-level",
+      "label": "Sailors on the Starless Sea 0 Level Characters",
+      "path": "packs/dcc-sailors-on-the-starless-sea-0-level.db",
+      "entity": "Actor",
+      "module": "dcc-sailors",
+      "system": "dcc"
+    }
+  ],
+  "system": [
+    "dcc"
+  ],
+  "styles": [
+    "styles/dcc-module.css"
+  ]
+}
