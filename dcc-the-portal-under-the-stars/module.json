@@ -14,7 +14,7 @@
       "name": "Tim L. White"
     }
   ],
-  "version": "0.90.2",
+  "version": "0.0.1",
   "minimumCoreVersion": "0.8.5",
   "compatibleCoreVersion": "9",
   "esmodules": [
@@ -37,7 +37,6 @@
     "styles/dcc-module.css"
   ],
   "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-portal-under-the-stars/v0.0.1/module.json",
-  "protected": true,
   "packs": [
     {
       "name": "dcc-portal-monsters",
@@ -83,6 +82,6 @@
       "type": "JournalEntry",
       "module": "dcc-the-portal-under-the-stars",
       "system": "dcc"
-    }  
+    }
   ]
 }
