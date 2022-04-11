@@ -1,0 +1,106 @@
+{
+  "name": "dcc-doom-of-the-savage-kings",
+  "title": "DCC 66.5: Doom of the Savage Kings",
+  "description": "DCC 66.5: Doom of the Savage Kings for Foundry VTT",
+  "author": "Harley Stroh | DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "version": "0.0.2",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9",
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "dependencies": [
+    {
+      "name": "dcc",
+      "type": "system"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-doom-of-the-savage-kings/v0.0.2/module.json",
+  "styles": [
+    "styles/dcc-module.css"
+  ],
+  "packs": [
+    {
+      "name": "dcc-doom-of-the-savage-kings-monsters",
+      "label": "Doom of the Savage Kings Monsters",
+      "path": "packs/dcc-doom-of-the-savage-kings-monsters.db",
+      "entity": "Actor",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-magic-items",
+      "label": "Doom of the Savage Kings Magic Items",
+      "path": "packs/dcc-doom-of-the-savage-kings-magic-items.db",
+      "entity": "Item",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-scenes",
+      "label": "Doom of the Savage Kings Scenes",
+      "path": "packs/dcc-doom-of-the-savage-kings-scenes.db",
+      "entity": "Scene",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-scenes-gridless",
+      "label": "Doom of the Savage Kings Scenes Gridless",
+      "path": "packs/dcc-doom-of-the-savage-kings-scenes-gridless.db",
+      "entity": "Scene",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-handouts",
+      "label": "Doom of the Savage Kings Handouts",
+      "path": "packs/dcc-doom-of-the-savage-kings-handouts.db",
+      "entity": "JournalEntry",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-text",
+      "label": "Doom of the Savage Kings Text",
+      "path": "packs/dcc-doom-of-the-savage-kings-text.db",
+      "entity": "JournalEntry",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-macros",
+      "label": "Doom of the Savage Kings Macros",
+      "path": "packs/dcc-doom-of-the-savage-kings-macros.db",
+      "entity": "Macro",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+     },
+     {
+       "name": "dcc-doom-of-the-savage-kings-tables",
+       "label": "Doom of the Savage Kings Tables",
+       "path": "packs/dcc-doom-of-the-savage-kings-tables.db",
+       "entity": "RollTable",
+       "module": "dcc-doom-of-the-savage-kings",
+       "system": "dcc"
+     }
+  ]
+}
