@@ -37,6 +37,7 @@
     "styles/dcc-module.css"
   ],
   "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-portal-under-the-stars/v0.0.1/module.json",
+  "protected": true,
   "packs": [
     {
       "name": "dcc-portal-monsters",
