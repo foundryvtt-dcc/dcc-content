@@ -1,0 +1,121 @@
+{
+  "id": "dcc-doom-of-the-savage-kings",
+  "name": "dcc-doom-of-the-savage-kings",
+  "title": "DCC #66.5: Doom of the Savage Kings - Level 1",
+  "description": "High above the windswept moors and darksome woods, the village of Hirot is under siege. Each night, as the sun sinks beneath the western mountains and the candles burn low, a devil-beast stalks the village streets, unleashing its savage fury on the living. From warlord to pauper, crone to child, no one is safe.\nDefeating the immortal hound will require more than mere blades or even spells. To slay the beast, the characters must delve into the mysteries of the land and its Savage Kings. Only then, armed with relics forged from a bloody past, can the most cunning and courageous of adventurers challenge the hound of Hirot!",
+  "version": "0.0.6",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "minimumCoreVersion": "10",
+  "authors": [
+    {
+      "name": "Harley Stroh | DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "styles": [
+    "styles/dcc-module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-doom-of-the-savage-kings/v0.0.6/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-doom-of-the-savage-kings-monsters",
+      "label": "Doom of the Savage Kings Monsters",
+      "path": "packs/dcc-doom-of-the-savage-kings-monsters.db",
+      "type": "Actor",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-magic-items",
+      "label": "Doom of the Savage Kings Magic Items",
+      "path": "packs/dcc-doom-of-the-savage-kings-magic-items.db",
+      "type": "Item",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-scenes",
+      "label": "Doom of the Savage Kings Scenes",
+      "path": "packs/dcc-doom-of-the-savage-kings-scenes.db",
+      "type": "Scene",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-scenes-gridless",
+      "label": "Doom of the Savage Kings Scenes Gridless",
+      "path": "packs/dcc-doom-of-the-savage-kings-scenes-gridless.db",
+      "type": "Scene",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-handouts",
+      "label": "Doom of the Savage Kings Handouts",
+      "path": "packs/dcc-doom-of-the-savage-kings-handouts.db",
+      "type": "JournalEntry",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-text",
+      "label": "Doom of the Savage Kings Text",
+      "path": "packs/dcc-doom-of-the-savage-kings-text.db",
+      "type": "JournalEntry",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-doom-of-the-savage-kings-macros",
+      "label": "Doom of the Savage Kings Macros",
+      "path": "packs/dcc-doom-of-the-savage-kings-macros.db",
+      "type": "Macro",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+     },
+     {
+       "name": "dcc-doom-of-the-savage-kings-tables",
+       "label": "Doom of the Savage Kings Tables",
+       "path": "packs/dcc-doom-of-the-savage-kings-tables.db",
+       "type": "RollTable",
+       "module": "dcc-doom-of-the-savage-kings",
+       "system": "dcc"
+     }
+  ]
+}
