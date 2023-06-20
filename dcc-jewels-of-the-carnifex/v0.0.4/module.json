@@ -19,11 +19,11 @@
       "name": "Tim L. White"
     }
   ],
-  "version": "0.0.1",
+  "version": "0.0.4",
   "compatibility": {
     "minimum": "10",
-    "verified": "10",
-    "maximum": "10"
+    "verified": "11",
+    "maximum": "11"
   },
   "esmodules": [
     "module/dccModule.js"
@@ -58,7 +58,10 @@
       "system": "dcc",
       "module": "dcc-jewels-of-the-carnifex",
       "path": "packs/dcc-jewels-of-the-carnifex-adventure.db",
-      "type": "Adventure"
+      "type": "Adventure",
+      "private": false,
+      "flags": {}
     }
-  ]
+  ],
+  "id": "dcc-jewels-of-the-carnifex"
 }
