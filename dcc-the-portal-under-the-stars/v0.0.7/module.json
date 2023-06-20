@@ -1,0 +1,106 @@
+{
+  "id": "dcc-the-portal-under-the-stars",
+  "name": "dcc-the-portal-under-the-stars",
+  "title": "DCC Funnel - The Portal Under the Stars - Level 0",
+  "description": "Every 50 years, the Empty Star rises in the night sky. You and your peasant friends aren't going to miss this chance to see what secrets it reveals in the old stone mounds. (This is the adventure from the core book).",
+  "version": "0.0.7",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "minimumCoreVersion": "10",
+  "authors": [
+    {
+      "name": "Joseph Goodman | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9) | DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "styles": [
+    "styles/dcc-module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-portal-under-the-stars/v0.0.7/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-portal-monsters",
+      "label": "The Portal Under the Stars Monsters",
+      "path": "packs/dcc-portal-monsters.db",
+      "type": "Actor",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-portal-items",
+      "label": "The Portal Under the Stars Items",
+      "path": "packs/dcc-portal-items.db",
+      "type": "Item",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-portal-scenes",
+      "label": "The Portal Under the Stars Scenes",
+      "path": "packs/dcc-portal-scenes.db",
+      "type": "Scene",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-portal-handouts",
+      "label": "The Portal Under the Stars Handouts",
+      "path": "packs/dcc-portal-handouts.db",
+      "type": "JournalEntry",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-portal-text",
+      "label": "The Portal Under the Stars Text",
+      "path": "packs/dcc-portal-text.db",
+      "type": "JournalEntry",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-portal-macros",
+      "label": "The Portal Under the Stars Macros",
+      "path": "packs/dcc-portal-macros.db",
+      "type": "Macro",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    }
+  ]
+}
