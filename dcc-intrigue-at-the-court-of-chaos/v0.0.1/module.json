@@ -1,0 +1,66 @@
+{
+  "id": "dcc-intrigue-at-the-court-of-chaos",
+  "name": "dcc-intrigue-at-the-court-of-chaos",
+  "title": "DCC #80: Intrigue at the Court of Chaos",
+  "description": "DCC #80: Intrigue at the Court of Chaos for FoundryVTT",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "minimumCoreVersion": "11",
+  "authors": [
+    {
+      "name": "Michael Curtis | DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "styles": [
+    "styles/dcc-module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-intrigue-at-the-court-of-chaos/v0.0.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-intrigue-at-the-court-of-chaos-adventure",
+      "label": "Intrigue at the Court of Chaos Adventure",
+      "system": "dcc",
+      "module": "dcc-intrigue-at-the-court-of-chaos",
+      "path": "packs/dcc-intrigue-at-the-court-of-chaos-adventure.db",
+      "type": "Adventure"
+    }
+  ]
+}
