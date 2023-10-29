@@ -1,0 +1,117 @@
+{
+  "name": "dcc-annual-1",
+  "title": "DCC Annual #1",
+  "description": "DCC Annual #1 for Dungeon Crawl Classics in FoundryVTT!",
+  "author": "DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+  "contributors": [
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "version": "0.0.2",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "system": [
+    "dcc"
+  ],
+  "esmodules": [
+    "module/dccAnnual.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "styles": [
+    "styles/dcc-annual-1.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-annual-1/v0.0.2/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "license": "LICENSE.txt",
+  "packs": [
+    {
+      "name": "dcc-annual-monsters",
+      "label": "DCC Annual #1 Monsters",
+      "path": "packs/dcc-annual-monsters.db",
+      "type": "Actor",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-magic-items",
+      "label": "DCC Annual #1 Magic Items",
+      "path": "packs/dcc-annual-magic-items.db",
+      "type": "Item",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-text",
+      "label": "DCC Annual #1 Text",
+      "path": "packs/dcc-annual-text.db",
+      "type": "JournalEntry",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-spell-journals",
+      "label": "DCC Annual #1 Spell Journals",
+      "path": "packs/dcc-annual-spell-journals.db",
+      "type": "JournalEntry",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-table-journals",
+      "label": "DCC Annual #1 Table Journals",
+      "path": "packs/dcc-annual-table-journals.db",
+      "type": "JournalEntry",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-tables",
+      "label": "DCC Annual #1 Tables",
+      "path": "packs/dcc-annual-tables.db",
+      "type": "RollTable",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-spell-tables",
+      "label": "DCC Annual #1 Spell Tables",
+      "path": "packs/dcc-annual-spell-tables.db",
+      "type": "RollTable",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-spells",
+      "label": "DCC Annual #1 Spells",
+      "path": "packs/dcc-annual-spells.db",
+      "type": "Item",
+      "module": "dcc-annual-1"
+    },
+    {
+      "name": "dcc-annual-disapproval",
+      "label": "DCC Annual #1 Disapproval",
+      "path": "packs/dcc-annual-disapproval.db",
+      "type": "RollTable",
+      "module": "dcc-annual-1"
+    }
+  ]
+}
