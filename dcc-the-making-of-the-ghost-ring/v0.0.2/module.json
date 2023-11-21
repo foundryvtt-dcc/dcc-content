@@ -1,0 +1,66 @@
+{
+  "id": "dcc-the-making-of-the-ghost-ring",
+  "name": "dcc-the-making-of-the-ghost-ring",
+  "title": "DCC #85: The Making of the Ghost Ring",
+  "description": "To save a soul and forge a ring! A ghostly enchantress calls for aid, her salvation hanging in the balance. Brave heroes are needed to complete the creation of a magical ring, a process that will take them from gritty city streets to sun-scorched deserts to the ruins of an ancient fortress atop a windswept peak. Are the adventurers up to the task or shall a sinister demon claim the souls of not only the enchantress but the heroes as well? Only luck, courage, and wits will triumph against adversity and allow the adventurers to claim the Ghost Ring for themselves!",
+  "version": "0.0.2",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "minimumCoreVersion": "11",
+  "authors": [
+    {
+      "name": "Michael Curtis | DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "styles": [
+    "styles/dcc-module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-making-of-the-ghost-ring/v0.0.2/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-the-making-of-the-ghost-ring-adventure",
+      "label": "DCC #85 The Making of the Ghost Ring",
+      "system": "dcc",
+      "module": "dcc-the-making-of-the-ghost-ring",
+      "path": "packs/dcc-the-making-of-the-ghost-ring-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
