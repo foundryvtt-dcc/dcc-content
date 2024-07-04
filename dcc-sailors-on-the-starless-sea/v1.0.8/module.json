@@ -1,0 +1,51 @@
+{
+  "id": "dcc-sailors-on-the-starless-sea",
+  "name": "dcc-sailors-on-the-starless-sea",
+  "title": "DCC #67: Sailors on the Starless Sea - Level 0 or 1",
+  "description": "A Level 0 Adventure\n\nFind out why this is among the most-celebrated adventures for DCC RPG!\n\nSince time immemorial you and your people have toiled in the shadow of the cyclopean ruins. Of mysterious origins and the source of many a superstition, they have always been considered a secret best left unknown by the folk of your hamlet.\n\nBut now something stirs beneath the crumbling blocks. Beastmen howl in the night and your fellow villagers are snatched from their beds. With no heroes to defend you, who will rise to stand against the encircling darkness? The secrets of Chaos are yours to unearth, but at what cost to sanity or soul?\n\nAn introductory adventure for the Dungeon Crawl Classics Roleplaying Game, Sailors on the Starless Sea pits a mob of 0-level adventurers against the legacy of the Chaos Lords and their corrupted hordes. Delving beneath the crumbling ruins, the characters discover ancient crypts, a starless sea, and an ancient ziggurat, where death and treasure await in equal measure!",
+  "version": "1.0.8",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-sailors-on-the-starless-sea/v1.0.8/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-sailors-on-the-starless-sea-adventure",
+      "label": "Sailors on the Starless Sea Adventure",
+      "path": "packs/dcc-sailors-on-the-starless-sea-adventure",
+      "type": "Adventure",
+      "module": "dcc-sailors-on-the-starless-sea",
+      "system": "dcc"
+    }
+  ]
+}
