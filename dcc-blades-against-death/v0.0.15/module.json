@@ -1,0 +1,54 @@
+{
+  "id": "dcc-blades-against-death",
+  "name": "dcc-blades-against-death",
+  "title": "DCC #74: Blades Against Death",
+  "description": "A Level 4 Adventure for DCC RPG. Punjar: wide-eyed madmen stalk the streets pronouncing the end of days, mail-clad priests crush the skulls of heathens underfoot, and timorous virgins are offered up in sacrifice within sooty temples. But even the greatest of shining temples and the strangest of mystery cults don’t dare to challenge the terrifying finality of death. Until now. In Blades Against Death, the adventurers cross between the realms of the living and the dead, and wager their souls in a desperate bid to steal a soul from Death’s hoary grasp. To win over the God of Dooms, you must be the most daring, stalwart and cunning and – when all else fails – willing to test your blades against Death! A mid-level adventure for the Dungeon Crawl Classics Role-Playing Game, Blades against Death offers characters a once in a lifetime escapade. Those that return from the Realms of the Dead will have earned the true title of Adventurer, while those that fail will spend eternity in Death’s service. BONUS ADVENTURE! Abbott of the Woods by Harley Stroh.",
+  "version": "0.0.15",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "minimumCoreVersion": "12",
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-blades-against-death/v0.0.15/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-blades-against-death-adventure",
+      "label": "DCC #74: Blades Against Death Adventure",
+      "system": "dcc",
+      "module": "dcc-blades-against-death",
+      "path": "packs/dcc-blades-against-death-adventure.db",
+      "type": "Adventure"
+    }
+  ]
+}
