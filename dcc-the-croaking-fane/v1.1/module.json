@@ -1,0 +1,52 @@
+{
+  "id": "dcc-the-croaking-fane",
+  "name": "dcc-the-croaking-fane",
+  "title": "DCC #77: The Croaking Fane",
+  "description": "For as long as men remember, the Lord of Evil Amphibians carried out unspeakable rites in his squatting temples situated far from civilization. Tales of human sacrifice, squirming servants, and rich but loathsome treasures were whispered of his followers. Now, unexpectedly, his servants have seemingly vanished, leaving behind their fanes to molder in the marshes. A brave band of adventurers gathers to explore one such tabernacle, eager to discover what riches—and terrors—the Lord of Evil Amphibians has left behind…",
+  "version": "1.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "minimumCoreVersion": "12",
+  "authors": [
+    {
+      "name": "Michael Curtis | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-croaking-fane/v1.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-the-croaking-fane-adventure",
+      "label": "DCC #77 The Croaking Fane",
+      "system": "dcc",
+      "module": "dcc-the-croaking-fane",
+      "path": "packs/dcc-the-croaking-fane-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
