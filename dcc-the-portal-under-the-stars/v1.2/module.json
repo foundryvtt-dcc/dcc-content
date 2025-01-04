@@ -1,0 +1,59 @@
+{
+  "id": "dcc-the-portal-under-the-stars",
+  "name": "dcc-the-portal-under-the-stars",
+  "title": "DCC Funnel - The Portal Under the Stars - Level 0",
+  "description": "Every 50 years, the Empty Star rises in the night sky. You and your peasant friends aren't going to miss this chance to see what secrets it reveals in the old stone mounds. (This is the adventure from the core book).",
+  "version": "1.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Joseph Goodman | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-portal-under-the-stars/v1.2/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-the-portal-under-the-stars-adventure",
+      "label": "The Portal Under The Stars Adventure",
+      "path": "packs/dcc-the-portal-under-the-stars-adventure",
+      "type": "Adventure",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    },
+    {
+      "name": "dcc-portal-macros",
+      "label": "The Portal Under the Stars Macros",
+      "path": "packs/dcc-portal-macros.db",
+      "type": "Macro",
+      "module": "dcc-the-portal-under-the-stars",
+      "system": "dcc"
+    }
+  ]
+}
