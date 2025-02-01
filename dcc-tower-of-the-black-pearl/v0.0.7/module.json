@@ -1,0 +1,53 @@
+{
+  "id": "dcc-tower-of-the-black-pearl",
+  "title": "DCC #79.5: Tower of the Black Pearl",
+  "description": "<p><strong>A Level 1 Adventure</strong></p>\n<p>Once every decade, the tides of the Empyrean Ocean recede far enough to reveal the highest eaves of a mysterious undersea tower. Long ago this was an eldritch fastness of Sezrekan the Elder, the most wicked wizard ever to plague the Known World, but now the tower is known simply as the final resting place of the fabled Black Pearl – an artifact rumored to bring doom upon all who dare to posses it.</p>\n<p>Tonight the moon nearly fills the sky, and the tides have already begun to recede. Adventurers have eight short hours to explore the tower before the dark waters return. The fabled Black Pearl will be theirs for the taking…if they can survive the Pearl’s curse.</p>",
+  "version": "0.0.7",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-tower-of-the-black-pearl/v0.0.7/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-tower-of-the-black-pearl-adventure",
+      "label": "DCC #79.5: Tower of the Black Pearl",
+      "path": "packs/dcc-tower-of-the-black-pearl-adventure",
+      "type": "Adventure",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
