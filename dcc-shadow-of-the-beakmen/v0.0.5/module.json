@@ -1,0 +1,52 @@
+{
+  "id": "dcc-shadow-of-the-beakmen",
+  "name": "dcc-shadow-of-the-beakmen",
+  "title": "DCC Day #1: Shadow of the Beakmen",
+  "description": "Towering obelisks stab the sky. Monstrous knights with blazing lances prowl the night. Huts burn, and entire villages are taken as slaves to be fed darksome pits. The cries of terror and panic give the horrors a name: the Beakmen have come.\n\nBut you are no mere peasant or serf, cowering the in the dark. You and your companions are reavers, with bloodied blades and spells wrenched from the dreams of demons. You stride through chaos while others flee, turning your steps towards the great stone obelisk, the source of the beakmen and their alien magics.\n\nWhether for the cause of justice or merely to acquire these strange blazing weapons for you own, tonight there shall be an accounting: a blazing brand thrust into The Shadow of the Beakmen.",
+  "version": "0.0.5",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "minimumCoreVersion": "12",
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-shadow-of-the-beakmen/v0.0.5/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-shadow-of-the-beakmen-adventure",
+      "label": "DCC Day #1: Shadow of the Beakmen",
+      "system": "dcc",
+      "module": "dcc-shadow-of-the-beakmen",
+      "path": "packs/dcc-shadow-of-the-beakmen-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
