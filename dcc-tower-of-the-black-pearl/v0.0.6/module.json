@@ -36,6 +36,7 @@
   "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-tower-of-the-black-pearl/v0.0.6/module.json",
   "url": "https://github.com/foundryvtt-dcc/dcc-content",
   "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
   "packs": [
     {
       "name": "dcc-tower-of-the-black-pearl-adventure",
