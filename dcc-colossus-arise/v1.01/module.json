@@ -1,0 +1,58 @@
+{
+  "id": "dcc-colossus-arise",
+  "title": "DCC #76: Colossus, Arise!",
+  "description": "DCC #76: Colossus, Arise! for FoundryVTT",
+  "version": "1.01",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-colossus-arise/v1.01/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-colossus-arise-adventure",
+      "label": "DCC #76: Colossus, Arise! Adventure",
+      "system": "dcc",
+      "module": "dcc-colossus-arise",
+      "path": "packs/dcc-colossus-arise-adventure",
+      "type": "Adventure"
+    },
+    {
+      "name": "dcc-colossus-arise-crits",
+      "label": "DCC #76: Colossus, Arise! Crits",
+      "system": "dcc",
+      "module": "dcc-colossus-arise",
+      "path": "packs/dcc-colossus-arise-crits",
+      "type": "RollTable"
+    }
+  ]
+}
