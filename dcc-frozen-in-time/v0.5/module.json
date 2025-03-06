@@ -1,0 +1,54 @@
+{
+  "id": "dcc-frozen-in-time",
+  "title": "DCC #79: Frozen in Time",
+  "description": "DCC #79: Frozen in Time for Foundry VTT",
+  "authors": [
+    {
+      "name": "Michael Curtis | Foundry Conversion by The DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+      "flags": {}
+    }
+  ],
+  "version": "0.5",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "styles": [
+    "styles/dcc-frozen-in-time.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-frozen-in-time/v0.5/module.json",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-frozen-in-time-adventure",
+      "label": "DCC #79: Frozen in Time Adventure",
+      "path": "packs/dcc-frozen-in-time-adventure",
+      "type": "Adventure",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
