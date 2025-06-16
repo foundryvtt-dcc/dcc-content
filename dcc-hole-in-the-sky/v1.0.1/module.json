@@ -1,0 +1,51 @@
+{
+  "id": "dcc-hole-in-the-sky",
+  "title": "DCC #86: Hole in the Sky",
+  "description": "DCC #86: Hole in the Sky for FoundryVTT",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "Brendan LaSalle | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-hole-in-the-sky/v1.0.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-hole-in-the-sky-adventure",
+      "label": "DCC #86: Hole in the Sky Adventure",
+      "system": "dcc",
+      "module": "dcc-hole-in-the-sky",
+      "path": "packs/dcc-hole-in-the-sky-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
