@@ -1,0 +1,50 @@
+{
+  "id": "dcc-doom-of-the-savage-kings",
+  "title": "DCC #66.5: Doom of the Savage Kings - Level 1",
+  "description": "High above the windswept moors and darksome woods, the village of Hirot is under siege. Each night, as the sun sinks beneath the western mountains and the candles burn low, a devil-beast stalks the village streets, unleashing its savage fury on the living. From warlord to pauper, crone to child, no one is safe.\nDefeating the immortal hound will require more than mere blades or even spells. To slay the beast, the characters must delve into the mysteries of the land and its Savage Kings. Only then, armed with relics forged from a bloody past, can the most cunning and courageous of adventurers challenge the hound of Hirot!",
+  "version": "1.3.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-doom-of-the-savage-kings/v1.3.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-doom-of-the-savage-kings-adventure",
+      "label": "Doom of the Savage Kings Adventure",
+      "path": "packs/dcc-doom-of-the-savage-kings-adventure",
+      "type": "Adventure",
+      "module": "dcc-doom-of-the-savage-kings",
+      "system": "dcc"
+    }
+  ]
+}
