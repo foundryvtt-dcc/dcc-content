@@ -1,0 +1,50 @@
+{
+  "id": "dcc-jewels-of-the-carnifex",
+  "title": "DCC #70: Jewels of the Carnifex",
+  "description": "At the end of a forgotten back alley, in the weird and otherworldly marketplace of faiths known as the Bazaar of the Gods, stands the ruins of a forgotten chapel. Once the cult of the Carnifex was celebrated throughout the City of a Thousand Gates. But a band of holy warriors rose against the cult of executioners and torturers, casting down her signs and scattering her devotees to the winds. The fate of the cthonic goddess, and – more importantly – her fabled jewels remains a mystery…until this night.",
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by The DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "version": "1.2.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-jewels-of-the-carnifex/v1.2.0/module.json",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-jewels-of-the-carnifex-adventure",
+      "label": "DCC #70: Jewels of the Carnifex Adventure",
+      "system": "dcc",
+      "module": "dcc-jewels-of-the-carnifex",
+      "path": "packs/dcc-jewels-of-the-carnifex-adventure",
+      "type": "Adventure",
+      "private": false
+    }
+  ]
+}
