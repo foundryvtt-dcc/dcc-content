@@ -1,0 +1,45 @@
+{
+  "id": "dcc-the-emerald-enchanter",
+  "title": "DCC #69: The Emerald Enchanter",
+  "description": "DCC #69: The Emerald Enchanter for FoundryVTT",
+  "authors": [
+    {
+      "name": "Joseph Goodman | Foundry Conversion by The DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"}
+  ],
+  "version": "1.4.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-the-emerald-enchanter/v1.4.0/module.json",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-the-emerald-enchanter-adventure",
+      "label": "DCC #69: The Emerald Enchanter Adventure",
+      "system": "dcc",
+      "module": "dcc-the-emerald-enchanter",
+      "type": "Adventure"
+    }
+  ]
+}
