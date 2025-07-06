@@ -1,0 +1,51 @@
+{
+  "id": "dcc-intrigue-at-the-court-of-chaos",
+  "title": "DCC #80: Intrigue at the Court of Chaos",
+  "description": "At the mercy of Chaos! Abducted by the Court of Chaos, the adventurers face hard choices if they want to return home. The Host of Chaos desires a legendary artifact held by the Scions of Law and need patsies to retrieve it. Faced with an eternity of servitude, the party must sneak into the Plane of Law and steal the Yokeless Egg from under its guardians’ watch. But not all is what it appears when the Court of Chaos is concerned and serving the Host may destroy the party from within. Can they survive the Intrigue At the Court of Chaos?",
+  "version": "1.4.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Michael Curtis | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-intrigue-at-the-court-of-chaos/v1.4.0/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-intrigue-at-the-court-of-chaos-adventure",
+      "label": "DCC #80 Intrigue at the Court of Chaos Adventure",
+      "system": "dcc",
+      "module": "dcc-intrigue-at-the-court-of-chaos",
+      "path": "packs/dcc-intrigue-at-the-court-of-chaos-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
