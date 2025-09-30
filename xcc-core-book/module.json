@@ -20,7 +20,7 @@
       "flags": {}
     }
   ],
-  "version": "0.0.1",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -57,7 +57,6 @@
   "flags": {
     "canUpload": true
   },
-  "protected": true,
   "packs": [
     {
       "name": "xcc-core-text",
