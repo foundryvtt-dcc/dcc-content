@@ -1,0 +1,364 @@
+{
+  "id": "xcc-core-book",
+  "title": "XCrawl Classics Core Book Compendium",
+  "description": "<p>Compendium for the XCrawl Classics Core Rulebook</p>",
+  "authors": [
+    {
+      "name": "DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)",
+      "flags": {}
+    },
+    {
+      "name": "Blaze Sanecki",
+      "flags": {}
+    },
+    {
+      "name": "Szymon Kobalczyk",
+      "flags": {}
+    },
+    {
+      "name": "Tim L. White",
+      "flags": {}
+    }
+  ],
+  "version": "0.1.3",
+  "compatibility": {
+    "minimum": "13",
+    "maximum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "xcc",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "protected": true,
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/xcc-core-book/v0.1.3/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "xcc-core-text",
+      "label": "XCC Core Book Text",
+      "path": "packs/xcc-core-text",
+      "type": "JournalEntry",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-class-level-data",
+      "label": "XCC Core Book Class Level Data",
+      "path": "packs/xcc-class-level-data",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-sponsorship-rewards",
+      "label": "XCC Sponsorship Rewards",
+      "path": "packs/xcc-core-sponsorship-rewards",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-crits-and-fumbles",
+      "label": "XCC Crits and Fumbles",
+      "path": "packs/xcc-core-crits-and-fumbles",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-tables",
+      "label": "XCC Core Book Tables",
+      "path": "packs/xcc-core-tables",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-disapproval",
+      "label": "XCC Disapproval",
+      "path": "packs/xcc-core-disapproval",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-ammunition",
+      "label": "XCC Ammunition",
+      "path": "packs/xcc-core-ammunition",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-equipment",
+      "label": "XCC Equipment",
+      "path": "packs/xcc-core-equipment",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-armor",
+      "label": "XCC Armor",
+      "path": "packs/xcc-core-armor",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-weapons",
+      "label": "XCC Weapons",
+      "path": "packs/xcc-core-weapons",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-occupation-items",
+      "label": "XCC Occupation Items",
+      "path": "packs/xcc-core-occupation-items",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spells-blaster",
+      "label": "XCC Blaster Spells",
+      "path": "packs/xcc-core-spells-blaster",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spell-tables-blaster",
+      "label": "XCC Blaster Spell Tables",
+      "path": "packs/xcc-core-spell-tables-blaster",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spell-side-effect-tables",
+      "label": "XCC Spell Side Effect Tables",
+      "path": "packs/xcc-core-spell-side-effect-tables",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spell-journals",
+      "label": "XCC Spell Journals",
+      "path": "packs/xcc-core-spell-journals",
+      "type": "JournalEntry",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spell-tables-gnome",
+      "label": "XCC Gnome Spell Tables",
+      "path": "packs/xcc-core-spell-tables-gnome",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spells-gnome",
+      "label": "XCC Gnome Spells",
+      "path": "packs/xcc-core-spells-gnome",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-creatures",
+      "label": "On Beyond Zombie: The Creatures of XCrawl",
+      "path": "packs/xcc-core-creatures",
+      "type": "Actor",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-people",
+      "label": "People",
+      "path": "packs/xcc-core-people",
+      "type": "Actor",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spell-tables-patron",
+      "label": "XCC Patron Spell Tables",
+      "path": "packs/xcc-core-spell-tables-patron",
+      "type": "RollTable",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "xcc-core-spells-patron",
+      "label": "XCC Patron Spells",
+      "path": "packs/xcc-core-spells-patron",
+      "type": "Item",
+      "system": "dcc",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "XCC Actors",
+      "sorting": "m",
+      "color": "#9c1519",
+      "packs": [
+        "xcc-core-creatures",
+        "xcc-core-people"
+      ],
+      "folders": []
+    },
+    {
+      "name": "XCC Items and Spells",
+      "sorting": "m",
+      "color": "#9c1519",
+      "packs": [
+        "xcc-core-armor",
+        "xcc-core-weapons",
+        "xcc-core-ammunition",
+        "xcc-core-equipment",
+        "xcc-core-sponsorship-rewards",
+        "xcc-core-occupation-items",
+        "xcc-core-spells-blaster",
+        "xcc-core-spells-gnome",
+        "xcc-core-spells-patron"
+      ],
+      "folders": []
+    },
+    {
+      "name": "XCC Journals",
+      "sorting": "m",
+      "color": "#9c1519",
+      "packs": [
+        "xcc-core-text"
+      ],
+      "folders": []
+    },
+    {
+      "name": "XCC System Data",
+      "sorting": "m",
+      "color": "#9c1519",
+      "packs": [
+        "xcc-class-level-data",
+        "xcc-core-disapproval",
+        "xcc-core-spell-side-effect-tables",
+        "xcc-core-spell-tables-blaster",
+        "xcc-core-spell-tables-gnome",
+        "xcc-core-spell-tables-patron",
+        "xcc-core-spell-journals"
+      ],
+      "folders": []
+    },
+    {
+      "name": "XCC Tables",
+      "sorting": "m",
+      "color": "#9c1519",
+      "packs": [
+        "xcc-core-crits-and-fumbles",
+        "xcc-core-tables"
+      ],
+      "folders": []
+    }
+  ],
+  "documentTypes": {
+    "Item": {
+      "sponsorship": {}
+    }
+  }
+}
