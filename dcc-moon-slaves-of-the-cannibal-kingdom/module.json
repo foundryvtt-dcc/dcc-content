@@ -1,0 +1,51 @@
+{
+  "id": "dcc-moon-slaves-of-the-cannibal-kingdom",
+  "title": "DCC #93: Moon Slaves of the Cannibal Kingdom",
+  "description": "Far to the west, beyond civilized lands, lie the Tolomak Islands— volcanic peaks covered in pestilential jungle and bestriding sunken ruins. The legends say the Tolomaks are home to treacherous witches, ferocious cannibals, moon demons, and worse! Wise are those who steer well away from these accursed jungle isles, but not everyone is wise…for the legends also speak of power unimaginable and treasures beyond the limits of mortal avarice. Now, under the light of the triple moons, a band of intrepid adventurers sails ever nearer the islands. With luck, they will escape with a fortune; without it, they may not keep their souls.",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Edgar Johnson | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-moon-slaves-of-the-cannibal-kingdom/v0.0.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": false,
+  "packs": [
+    {
+      "name": "dcc-moon-slaves-of-the-cannibal-kingdom-adventure",
+      "label": "DCC #93: Moon Slaves of the Cannibal Kingdom",
+      "system": "dcc",
+      "module": "dcc-moon-slaves-of-the-cannibal-kingdom",
+      "path": "packs/dcc-moon-slaves-of-the-cannibal-kingdom-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
