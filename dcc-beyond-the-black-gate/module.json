@@ -19,11 +19,11 @@
       "name": "Tim L. White"
     }
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
   },
   "esmodules": [
     "module/dccModule.js"
