@@ -1,0 +1,51 @@
+{
+  "id": "dcc-beyond-the-black-gate",
+  "title": "DCC #72: Beyond the Black Gate",
+  "description": "Summoned by a coven of foul witches, the adventurers are bid through the Black Gate and across the multiverse, in pursuit of the crown of the fallen Horned King. There, in the icebound gloom of Thrice-Tenth Kingdom, they must pit their wits and brawn against his dread servants. His sullen citadel looms above the darksome woods and elfin ice caves, ruling over the mystic kingdom. Do you dare to ascend the throne of bones and declare yourself master of the Wild Hunt? Whatever your answer, the land beyond the Black Gate is sure to present a grim challenge for the even the hardiest of adventurers!",
+  "version": "0.0.3",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Harley Stroh | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-beyond-the-black-gate/v0.0.3/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": true,
+  "packs": [
+    {
+      "name": "dcc-beyond-the-black-gate-adventure",
+      "label": "DCC #72: Beyond the Black Gate Adventure",
+      "system": "dcc",
+      "module": "dcc-beyond-the-black-gate",
+      "path": "packs/dcc-beyond-the-black-gate-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
