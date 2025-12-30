@@ -1,0 +1,56 @@
+{
+  "id": "dcc-dark-tower",
+  "title": "DCC – Dark Tower",
+  "description": "DCC – Dark Tower for FoundryVTT",
+  "authors": [
+    {
+      "name": "Jennell Jaquays and Bob Brinkman | Foundry Conversion by The DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"}
+  ],
+  "version": "0.0.11",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-dark-tower/v0.0.10/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": false,
+  "packs": [
+    {
+      "name": "dcc-dark-tower-adventure",
+      "label": "DCC – Dark Tower Adventure",
+      "system": "dcc",
+      "module": "dcc-dark-tower",
+      "type": "Adventure"
+    },
+    {
+      "name": "dcc-dark-tower-chosen-sons-of-set-adventure",
+      "label": "DCC – Dark Tower The Chosen Sons of Set Adventure",
+      "system": "dcc",
+      "module": "dcc-dark-tower-the-chosen-sons-of-set",
+      "type": "Adventure"
+    }
+  ]
+}
