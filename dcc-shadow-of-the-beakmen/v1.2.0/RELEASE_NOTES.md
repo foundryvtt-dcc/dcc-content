@@ -1,0 +1,1 @@
+* FoundryVTT Version 14 Compatibility
