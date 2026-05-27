@@ -1,0 +1,232 @@
+{
+  "id": "mcc-core-book",
+  "title": "MCC Core Book",
+  "description": "Core Book for Mutant Crawl Classics in FoundryVTT!",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "DCC Foundry Volunteer Team (https://discord.gg/foundryvtt #dcc)"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "bugs": "https://github.com/foundryvtt-dcc/mcc-core-book/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "module/mcc-core-book.js"
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": ["js", "css", "html", "json"]
+    }
+  },
+  "styles": [
+    "styles/mcc-core-book.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "mcc-core-text",
+      "label": "MCC Core Book Text",
+      "path": "packs/mcc-core-text",
+      "system": "dcc",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "mcc-core-mutations",
+      "label": "Mutations",
+      "path": "packs/mcc-core-mutations",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "mcc-core-ai-programs",
+      "label": "AI Programs",
+      "path": "packs/mcc-core-ai-programs",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "mcc-core-artifacts",
+      "label": "Artifacts",
+      "path": "packs/mcc-core-artifacts",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "mcc-core-mutation-tables",
+      "label": "Mutation Tables",
+      "path": "packs/mcc-core-mutation-tables",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-ai-program-tables",
+      "label": "AI Program Tables",
+      "path": "packs/mcc-core-ai-program-tables",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-artifact-tables",
+      "label": "Artifact Tables",
+      "path": "packs/mcc-core-artifact-tables",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-tables",
+      "label": "Tables",
+      "path": "packs/mcc-core-tables",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-crits-and-fumbles",
+      "label": "Crits and Fumbles",
+      "path": "packs/mcc-core-crits-and-fumbles",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-disapproval",
+      "label": "Patron Taint (Disapproval)",
+      "path": "packs/mcc-core-disapproval",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-glowburn",
+      "label": "Glowburn",
+      "path": "packs/mcc-core-glowburn",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "mcc-core-creatures",
+      "label": "Creatures",
+      "path": "packs/mcc-core-creatures",
+      "system": "dcc",
+      "type": "Actor"
+    },
+    {
+      "name": "mcc-class-level-data",
+      "label": "Class Level Data",
+      "path": "packs/mcc-class-level-data",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "mcc-core-occupation-items",
+      "label": "Occupation Items",
+      "path": "packs/mcc-core-occupation-items",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "mcc-core-pregens-level-zero",
+      "label": "Pregens (Level Zero)",
+      "path": "packs/mcc-core-pregens-level-zero",
+      "system": "dcc",
+      "type": "Actor"
+    },
+    {
+      "name": "mcc-core-pregens-upper-level",
+      "label": "Pregens (Upper Level)",
+      "path": "packs/mcc-core-pregens-upper-level",
+      "system": "dcc",
+      "type": "Actor"
+    },
+    {
+      "name": "mcc-core-crit-fumble-effects",
+      "label": "Crit and Fumble Effects",
+      "path": "packs/mcc-core-crit-fumble-effects",
+      "system": "dcc",
+      "type": "ActiveEffect"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "MCC Actors",
+      "sorting": "m",
+      "color": "#8a5a1e",
+      "packs": [
+        "mcc-core-creatures",
+        "mcc-core-pregens-level-zero",
+        "mcc-core-pregens-upper-level"
+      ]
+    },
+    {
+      "name": "MCC Journals",
+      "sorting": "m",
+      "color": "#8a5a1e",
+      "packs": [
+        "mcc-core-text"
+      ]
+    },
+    {
+      "name": "MCC Items and Mutations",
+      "sorting": "m",
+      "color": "#8a5a1e",
+      "packs": [
+        "mcc-core-mutations",
+        "mcc-core-ai-programs",
+        "mcc-core-artifacts",
+        "mcc-core-occupation-items"
+      ]
+    },
+    {
+      "name": "MCC Tables",
+      "sorting": "m",
+      "color": "#8a5a1e",
+      "packs": [
+        "mcc-core-mutation-tables",
+        "mcc-core-ai-program-tables",
+        "mcc-core-artifact-tables",
+        "mcc-core-tables",
+        "mcc-core-crits-and-fumbles",
+        "mcc-core-disapproval",
+        "mcc-core-glowburn"
+      ]
+    },
+    {
+      "name": "MCC System Data",
+      "sorting": "m",
+      "color": "#8a5a1e",
+      "packs": [
+        "mcc-class-level-data"
+      ]
+    },
+    {
+      "name": "MCC Effects",
+      "sorting": "m",
+      "color": "#8a5a1e",
+      "packs": [
+        "mcc-core-crit-fumble-effects"
+      ]
+    }
+  ],
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/mcc-core-book/v0.1.0/module.json",
+  "protected": false,
+  "license": "LICENSE.txt"
+}
