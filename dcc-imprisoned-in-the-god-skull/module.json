@@ -1,0 +1,51 @@
+{
+  "id": "dcc-imprisoned-in-the-god-skull",
+  "title": "DCC #98: Imprisoned in the God-Skull",
+  "description": "It hangs like a grim moon over the world, an ancient prison fashioned from the divine remains of a dead god. Within this ivory prison is an evil so powerful that even the Scions of Law could not destroy it. Soon, however, its long imprisonment may be at an end. An alien mass of writhing, terrible life has emerged from the Void of the Stars to collide with the floating prison, unleashing even stranger foes into the God-Skull. As the Keepers of the prison and their monk allies fight the invaders, that ancient evil begins to plot its escape. Can the heroes intervene to both repel the alien invaders before they reach the world below and keep a terrible power imprisoned?",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Michael Curtis | Foundry Conversion by the DCC Foundry Volunteer Team (https://discord.gg/2PR9YH9)"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/dcc-content/main/dcc-imprisoned-in-the-god-skull/v0.0.1/module.json",
+  "url": "https://github.com/foundryvtt-dcc/dcc-content",
+  "bugs": "https://github.com/foundryvtt-dcc/dcc-content/issues",
+  "protected": false,
+  "packs": [
+    {
+      "name": "dcc-imprisoned-in-the-god-skull-adventure",
+      "label": "DCC #98: Imprisoned in the God-Skull Adventure",
+      "system": "dcc",
+      "module": "dcc-imprisoned-in-the-god-skull",
+      "path": "packs/dcc-imprisoned-in-the-god-skull-adventure",
+      "type": "Adventure"
+    }
+  ]
+}
