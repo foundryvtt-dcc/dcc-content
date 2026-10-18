@@ -28,7 +28,7 @@
     "requires": [],
     "conflicts": []
   },
-  "version": "1.5.14",
+  "version": "1.5.15",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
