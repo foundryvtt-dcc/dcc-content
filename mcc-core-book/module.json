@@ -2,7 +2,7 @@
   "id": "mcc-core-book",
   "title": "MCC Core Book",
   "description": "Core Book for Mutant Crawl Classics in FoundryVTT!",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
